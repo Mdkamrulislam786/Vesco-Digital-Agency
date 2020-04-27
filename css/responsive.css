@@ -183,7 +183,7 @@
     .testimonial blockquote::before {
         content: "\201C";
         top: 90px;
-        left: 15px;
+        left: 0px;
 
     }
     .testimonial blockquote::after {

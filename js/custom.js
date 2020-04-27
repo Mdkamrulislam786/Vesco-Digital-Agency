@@ -2,15 +2,28 @@
 $(function () {
   new WOW().init();
 });
-$(function () {
-  $("#work").magnificPopup({
-    delegate: "a",
-    type: "imgage",
-    gallery: {
-      enable: true,
-    },
+
+$(document).ready(function() {
+  $('.popup').magnificPopup({
+    delegate: 'a',
+    type:'image',
+    gallery:{
+      enabled:true
+    }
   });
 });
+
+// $(function () {
+//   $("#work").magnificPopup({
+//     delegate: "a",
+//     type: "imgage",
+//     gallery: {
+//       enable: true,
+//     },
+//   });
+// });
+
+
 
 $(function () {
   $("#team-members").owlCarousel({
@@ -31,7 +44,7 @@ $(function () {
         },
         // breakpoint from 768 up
         768: {
-          items: 2,
+          items: 3,
         }
     }
   });
