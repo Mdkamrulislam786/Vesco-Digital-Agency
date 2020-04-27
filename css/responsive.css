@@ -1,0 +1,201 @@
+/*LARGE DEVICES*/
+@media (min-width: 1200px) {
+    /*OK*/
+}
+
+
+/*MEDIUM DEVICES*/
+
+@media (min-width:992px) and (max-width:1199px) {
+    .navbar {
+        padding: 0px;
+    }
+
+    .navbar-nav {
+        display: flex;
+        float: left;
+    }
+
+    #vesco-menu {
+        padding-right: 20px;
+    }
+
+    #home h3 {
+        font-size: 42px;
+    }
+
+    .service-item-description p {
+        margin: 0;
+        padding-left: 95px;
+    }
+
+}
+
+/*SMALL DEVICES */
+@media (min-width:768px) and (max-width: 991px) {
+    .navbar {
+        background: rgba(0, 0, 0, 0.7);
+        padding-right: 70px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+
+    #vesco-menu {
+        padding-left: 85px;
+        padding-top: 10px;
+    }
+
+    #home-heading h3 {
+        font-size: 32px;
+        padding-top: 50px;
+    }
+
+    .service-item-title h3 {
+        display: flex;
+    }
+
+    .service-item-description p {
+        display: block;
+        width: 100%;
+        margin: 0;
+        padding-left: 95px;
+    }
+
+    .service-item {
+        padding-right: 15px;
+    }
+
+    .about-bg-digonal {
+        width: 100%;
+        height: 350px;
+        border-left: 0;
+        border-top: 0;
+    }
+}
+
+/*EXTRA-SMALL DEVICES*/
+
+@media (max-width:767px) {
+    .navbar {
+        background: rgba(0, 0, 0, 0.7);
+        padding-right: 70px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+
+    #home-heading h3 {
+        font-size: 35px;
+        padding-top: 50px;
+    }
+
+    #about-bg-digonal {
+        width: 100%;
+        height: 350px;
+        border-left: 0;
+        border-top: 0;
+    }
+
+    .service-item-description p {
+        margin: 0;
+        padding-left: 95px;
+    }
+
+    .about-content-box {
+        width: 100%;
+        height: 350px;
+    }
+
+    .testimonial {
+        padding: 10px 50px;
+    }
+
+    .testimonial blockquote p {
+        padding: 10px 0px;
+    }
+
+    .testimonial blockquote::before {
+        content: "\201C";
+        top: 110px;
+        left: 20px;
+
+    }
+
+    .testimonial blockquote::after {
+        content: "\201D";
+        bottom: 90px;
+        right: 20px;
+
+    }
+}
+
+/*EXTRA SMALLER DEVICE 320PX*/
+@media (min-width:320px) and (max-width:480px) {
+    .navbar {
+        background: rgba(0, 0, 0, 0.7);
+        padding-right: 20px;
+        padding-left: 20px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+
+    .logo {
+        padding-left: 0px !important;
+    }
+
+    #home {
+        height: 700px;
+    }
+
+    #home h3 {
+        font-size: 25px;
+    }
+    .service-item-icon i{
+        width: 58px;
+        height: 20px;
+        padding: 5px;
+    }
+    .service-item-title h3 {
+        text-align: center;
+        font-size: 18px;
+        font-weight: 600;
+    }
+
+    #about-bg-digonal {
+        width: 100%;
+        height: 250px;
+        border-left: 0;
+        border-top: 0;
+    }
+
+    .about-content-box {
+        width: 100%;
+        height: 350px;
+        margin-top: 40px;
+    }
+
+    .testimonial blockquote p {
+        font-size: 12px;
+        padding: 10px 0px;
+    }
+    .testimonial {
+        padding: 10px 20px;
+    }
+    .testimonial blockquote::before {
+        content: "\201C";
+        top: 90px;
+        left: 15px;
+
+    }
+    .testimonial blockquote::after {
+        content: "\201D";
+        bottom: 80px;
+        right: 0px;
+
+    }
+    #testimonials img{
+        max-width: 90px;
+        margin: 0 auto;
+        border-radius: 50%;
+    }
+
+}
