@@ -13,18 +13,6 @@ $(document).ready(function() {
   });
 });
 
-// $(function () {
-//   $("#work").magnificPopup({
-//     delegate: "a",
-//     type: "imgage",
-//     gallery: {
-//       enable: true,
-//     },
-//   });
-// });
-
-
-
 $(function () {
   $("#team-members").owlCarousel({
     items: 3,
@@ -88,10 +76,7 @@ $(function () {
       // breakpoint from 768 up
       768: {
         items: 4,
-      },
-      992: {
-        items: 4,
-      },
+      }
     }
   });
 });
