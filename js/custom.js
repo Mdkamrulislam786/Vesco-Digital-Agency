@@ -4,7 +4,7 @@ $(function () {
 });
 
 $(document).ready(function() {
-  $('.popup').magnificPopup({
+  $('#Work').magnificPopup({
     delegate: 'a',
     type:'image',
     gallery:{
